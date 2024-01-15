@@ -1461,6 +1461,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "uniffi-example-external-foreign-trait"
+version = "0.22.0"
+dependencies = [
+ "thiserror",
+ "uniffi",
+ "uniffi-example-shared",
+]
+
+[[package]]
 name = "uniffi-example-futures"
 version = "0.22.0"
 dependencies = [
@@ -1480,6 +1489,14 @@ dependencies = [
 name = "uniffi-example-rondpoint"
 version = "0.22.0"
 dependencies = [
+ "uniffi",
+]
+
+[[package]]
+name = "uniffi-example-shared"
+version = "0.22.0"
+dependencies = [
+ "thiserror",
  "uniffi",
 ]
 

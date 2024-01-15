@@ -15,6 +15,8 @@ members = [
   "examples/arithmetic-procmacro",
   "examples/callbacks",
   "examples/custom-types",
+  "examples/external-foreign-trait",
+  "examples/external-foreign-trait/shared",
   "examples/futures",
   "examples/geometry",
   "examples/rondpoint",

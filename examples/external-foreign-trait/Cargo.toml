@@ -1,0 +1,22 @@
+[package]
+name = "uniffi-example-external-foreign-trait"
+edition = "2021"
+version = "0.22.0"
+publish = false
+
+[lib]
+crate-type = ["lib", "cdylib"]
+name = "external_foreign_trait"
+
+[dependencies]
+uniffi = { path = "../../uniffi", version = "0.25" }
+uniffi-example-shared = { path = "./shared", version = "0.22.0" }
+thiserror = "1.0"
+
+[build-dependencies]
+uniffi = { path = "../../uniffi", version = "0.25", features = ["build"] }
+
+[dev-dependencies]
+uniffi = { path = "../../uniffi", version = "0.25", features = [
+  "bindgen-tests",
+] }
